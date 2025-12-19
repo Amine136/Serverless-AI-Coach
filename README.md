@@ -45,7 +45,7 @@ The system follows an **Event-Driven Serverless Architecture**:
 
 * **Runtime:** Python 3.12
 * **Cloud:** Azure Functions (Linux Consumption Plan)
-* **AI Model:** Google Gemini 1.5 Flash (via `google-genai` SDK)
+* **AI Model:** Google Gemini (via `google-genai` SDK)
 * **Database:** Google Sheets API (via `gspread` & `pandas`)
 * **Notification:** Discord Webhooks
 
