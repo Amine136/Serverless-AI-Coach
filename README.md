@@ -19,7 +19,7 @@ It runs autonomously on **Azure Functions**, handles state persistence via Googl
 
 * **🧠 Context-Aware AI:** Uses **Google Gemini** to generate unique, non-repetitive messages. It knows if I'm "farming low-XP mobs" (ignoring difficult skills) or "cooking" (exceeding targets).
 * **💾 State Persistence:** The agent remembers the previous run's data. It only notifies me if *new* progress is detected or if a specific "panic" threshold is met.
-* **🧛 Vampire Mode Logic:** Custom algorithm that shifts the "day" boundary. Studying at 02:00 AM counts towards "Yesterday's" goal, preventing false panic alerts after midnight.
+* **🧛 Vampire Mode Logic:** Custom algorithm that shifts the "day" boundary. Studying at 01:00 AM counts towards "Yesterday's" goal, preventing false panic alerts after midnight.
 * **📅 Custom Cycle Support:** Handles non-standard weekly cycles (e.g., Wednesday to Tuesday) for trend calculation.
 * **🗣️ Memory:** The agent reads its own past messages to avoid repeating jokes or advice.
 
