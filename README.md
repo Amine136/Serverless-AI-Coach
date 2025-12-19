@@ -120,11 +120,9 @@ func azure functionapp publish MyChaosCoach --build remote
 ---
 
 ## 📈 Future Improvements
-* [ ] Add "Streak Freeze" logic.
 * [ ] Two-way interaction (Chat with the bot via Discord).
-* [ ] Dashboard visualization using Streamlit.
+
 
 ---
 
-**Author:** [Mohamed Amine Ouni]
-**License:** MIT
+**Author:** [Mohamed Amin Ouni]
