@@ -1,0 +1,38 @@
+# --- SECRETS (CRITICAL) ---
+google_credentials.json
+local.settings.json
+.env
+
+# --- PYTHON ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+# Your specific virtual environment folder
+.venv/
+venv/
+env/
+
+# --- AZURE FUNCTIONS LOCAL ARTIFACTS ---
+# These are generated when you run 'func start'
+.funcignore
+__azurite_db_*
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+
+# --- VS CODE ---
+.vscode/
+
+# --- TEMP FOLDERS ---
+# You have these in your directory
+uploads/
+detections/
+
+# --- BUILD ARTIFACTS ---
+bin/
+obj/
+build/
+dist/
+*.egg-info/
